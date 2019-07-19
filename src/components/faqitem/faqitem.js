@@ -8,19 +8,20 @@ export default class Faqitem extends Component {
 
     this.state = {
       showing: false,
+      icon:false
     };
   }
 
   render() {
     const { showing } = this.state;
-
+    const {icon} = this.state;
     return (
       <div >
         <Button  className ="btn-block question " 
         color="light"
-          onClick={() => this.setState({ showing: !showing })}
+          onClick={() => this.setState({ showing: !showing,icon: !icon })}
         >
-        <span className="icon" />
+        <span className ={ this.state.icon ? "cerrado" : "icon"} />
           {this.props.nombre}
         </Button>
         <div style={{ display: showing ? 'block' : 'none' }}>

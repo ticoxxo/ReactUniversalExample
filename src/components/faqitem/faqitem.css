@@ -19,3 +19,19 @@ span.icon {
     padding-right: 10%;
     height: 30px;
 }
+
+.icon {
+    background: url(../../images/open.png) no-repeat;
+    float: right;
+    width: 10px;
+    padding-right: 10%;
+    height: 30px;
+}
+
+.cerrado{
+    background: url(../../images/close.png) no-repeat;
+    float: right;
+    width: 10px;
+    padding-right: 10%;
+    height: 30px;
+}
