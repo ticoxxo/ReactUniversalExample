@@ -1,0 +1,21 @@
+.question {
+    color:black;
+    text-align:start;
+    
+}
+
+.question:active {
+    background-color:#B61547;
+}
+/* 
+.question-wrapper{
+    border-top: 2px solid #BEBEBE
+} */
+
+span.icon {
+    background: url(../../images/open.png) no-repeat;
+    float: right;
+    width: 10px;
+    padding-right: 10%;
+    height: 30px;
+}

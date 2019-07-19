@@ -1,0 +1,17 @@
+/* .btn-group button {
+    background-color: #27387E; 
+  border: 1px solid #27387E; 
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer; 
+  width: 50%; 
+  display: block; 
+} */
+/* 
+.btn-group button:not(:last-child) {
+    border-bottom: none;
+} */
+
+/* .btn-group:active {
+    background-color: #B61547
+} */

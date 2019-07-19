@@ -25,6 +25,7 @@
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",
     "babel-plugin-styled-components": "^1.10.0",
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.3.26",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-offline": "^2.0.25",
@@ -42,10 +43,12 @@
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-awesome-slider": "^1.0.1",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-pose": "^4.0.5",
     "react-pure-lifecycle": "^3.0.0",
+    "reactstrap": "^8.0.1",
     "styled-components": "^4.1.3"
   },
   "devDependencies": {

@@ -1,33 +1,28 @@
-import React from 'react';
+import React,{Component} from 'react';
+
+import 'bootstrap/dist/css/bootstrap.css';
 
 import Layout from 'components/layout';
 
+import Faqlist from 'components/faqlist';
+import Faq from 'components/faq';
+import '../components/faqlist/faqlist.css';
 
 
-const vid = require('../videos/unOwen.mp4');
-const Index = () => (
-  <Layout>
-    <div>
-      <video
-        width="100%"
-        height="100%"
-        src={vid}
-    
-        playsInline
-        loop
-        autoPlay
-      >
-        <track
-          src=""
-          kind="captions"
-          srcLang="en"
-          label="english_captions"
-        />
-      </video>
-    </div>
-  </Layout>
-);
+export default class Index extends Component {
+  
 
+  render(){
+  
+    return(
+      <Layout>
+       
+          
+            <Faqlist />
+        
+      </Layout>
 
-
-export default Index;
+    )
+  }
+}
+  

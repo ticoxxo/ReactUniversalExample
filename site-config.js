@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Jésus Cárdenas`,
+  siteTitle: `AllAbordo FAQ`,
   siteTitleShort: `Muff`,
   siteDescription: `Furry`,
   siteUrl: `https://github.com/ticoxxo`,
