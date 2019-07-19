@@ -25,26 +25,52 @@
     padding: 10px 24px;
     font-size: 20px !important; 
     padding:25px 0  !important;
+    display: block;
 }
 
 .center{
-    
+    display: block;
     text-align: center;
     margin-left: auto;
   margin-right: auto;
 }
 
+.col-group{
+    display: none;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .buttonWidth{
-        width: 50%;
+        width: 80%;
         cursor:pointer;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+        
     }
 
+    .divider{
+        width:5px;
+        height:8px;
+        display:inline-block;
+    }
+    .first{
+        float: right;
+    }
+    .col-group{
+        width: 50%;
+        display: block;
+    }
+
+    .buttonItem{
+        padding: 10px 24px;
+        font-size: 15px !important; 
+        padding:25px 0  !important;
+        display: block;
+        font-weight: bold;
+        border: 1px outset ;
+    }
     .center{
-    
-        text-align: center;
-        margin-left: auto;
-      margin-right: auto;
+        display: none;
     }
   }

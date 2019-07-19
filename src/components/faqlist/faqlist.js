@@ -18,7 +18,7 @@ export default class Faqlist extends Component {
     return (
       <Container fluid={true}>
         <Row>
-          <Col sm={6} lg={6} md={12} className="center">
+          <Col sm={6} lg={3} md={9} className="center">
             <ButtonGroup 
               className="btn-block buttonWidth"
               fluid={true}
@@ -59,7 +59,45 @@ export default class Faqlist extends Component {
               </Button>
             </ButtonGroup>
           </Col>
-          <Col sm={6} lg={6} md={12}>
+          <Col sm={3} lg={6} md={3} fluid={true} className="col-group">
+            <ButtonGroup className="btn-block buttonWidth first" vertical size="lg">
+              <Button
+                className="buttonItem"
+                color="primary"
+                onClick={() => this.setState({ value: 'boletos' })}
+              >
+                BOLETOS
+              </Button>
+              <div className="divider" />
+              <Button
+                className="buttonItem"
+                color="primary"
+                onClick={() => this.setState({ value: 'paqueteria' })}
+              >
+                PAQUETERIA
+              </Button>
+            </ButtonGroup>
+          </Col>
+          <Col sm={3} lg={6} md={3} className="col-group">
+            <ButtonGroup className="btn-block buttonWidth " vertical size="lg">
+              <Button
+                className="buttonItem"
+                color="primary"
+                onClick={() => this.setState({ value: 'compras' })}
+              >
+                COMPRAS
+              </Button>
+              <div className="divider" />
+              <Button
+                className="buttonItem"
+                color="primary"
+                onClick={() => this.setState({ value: 'abordando' })}
+              >
+                ABORDANDO
+              </Button>
+            </ButtonGroup>
+          </Col>
+          <Col sm={6} lg={9} md={9}>
             <div>
               <Faq value={this.state.value} />
             </div>

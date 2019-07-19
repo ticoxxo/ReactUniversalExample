@@ -16,7 +16,7 @@ export default class Faqitem extends Component {
     const { showing } = this.state;
     const { icon } = this.state;
     return (
-      <div>
+      <div className="wrapper-item">
         <Button
           className="btn-block question "
           color="light"
@@ -24,8 +24,8 @@ export default class Faqitem extends Component {
         >
           <span className={this.state.icon ? 'cerrado' : 'icon'} />
           {this.props.nombre}
-        </Button>
-        <div style={{ display: showing ? 'block' : 'none' }}>
+        </Button >
+        <div className="answer" style={{ display: showing ? 'block' : 'none' }}>
           {this.props.text}
         </div>
       </div>

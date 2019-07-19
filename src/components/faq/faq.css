@@ -1,4 +1,11 @@
 .question-wrapper{
     /* border-top: 2px solid #BEBEBE; */
     border-bottom: 2px solid #BEBEBE;
+   
+}
+
+@media only screen and (min-width: 600px){
+    .question-wrapper{
+        margin-right: 10%;  
+    }
 }
