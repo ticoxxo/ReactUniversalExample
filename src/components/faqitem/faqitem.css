@@ -13,6 +13,7 @@
 .answer{
     font-size: 1vw;
     text-align:start;
+    margin: 1% 0;
 }
 /* 
 .question-wrapper{
@@ -20,21 +21,21 @@
 } */
 
 .icon {
-    background: url(../../images/next.png) no-repeat;
+    /* background: url(../../images/next.png) no-repeat;
     float: right;
     width: 10px;
     padding-right: 6%;
     
-    
+     */
 }
 
 .cerrado{
-    background: url(../../images/next.png) no-repeat;
+    /* background: url(../../images/next.png) no-repeat;
     float: right;
     width: 10px;
     padding-right: 6%;
     padding-top: 30px;
-    transform: rotate(-90deg) translateX(10px);
+    transform: rotate(-90deg) translateX(10px); */
 }
 
 @media only screen and (max-width: 600px) {
@@ -72,5 +73,6 @@
     .answer{
         font-size: 3vw;
         text-align:start;
+        margin: 5% 0;
     }
 }
