@@ -18,9 +18,15 @@ export default class Faqlist extends Component {
     return (
       <Container fluid={true}>
         <Row>
-          <Col  sm={6} lg={6} md={12}>
-            <ButtonGroup className ="btn-block" fluid={true} vertical size="lg">
-              <Button
+          <Col sm={6} lg={6} md={12} className="center">
+            <ButtonGroup 
+              className="btn-block buttonWidth"
+              fluid={true}
+              vertical
+              size="lg"
+            >
+              <Button 
+                className="buttonItem"
                 fluid={true}
                 color="primary"
                 onClick={() => this.setState({ value: 'boletos' })}
@@ -28,6 +34,7 @@ export default class Faqlist extends Component {
                 BOLETOS
               </Button>
               <Button
+                className="buttonItem"
                 fluid={true}
                 color="primary"
                 onClick={() => this.setState({ value: 'paqueteria' })}
@@ -35,6 +42,7 @@ export default class Faqlist extends Component {
                 PAQUETERIA
               </Button>
               <Button
+                className="buttonItem"
                 fluid={true}
                 color="primary"
                 onClick={() => this.setState({ value: 'compras' })}
@@ -42,6 +50,7 @@ export default class Faqlist extends Component {
                 COMPRAS
               </Button>
               <Button
+                className="buttonItem"
                 fluid={true}
                 color="primary"
                 onClick={() => this.setState({ value: 'abordando' })}
@@ -50,7 +59,7 @@ export default class Faqlist extends Component {
               </Button>
             </ButtonGroup>
           </Col>
-          <Col  sm={6} lg={6} md={12}>
+          <Col sm={6} lg={6} md={12}>
             <div>
               <Faq value={this.state.value} />
             </div>

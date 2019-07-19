@@ -15,3 +15,36 @@
 /* .btn-group:active {
     background-color: #B61547
 } */
+
+.buttonWidth{
+    width: 50%;
+    cursor:pointer;
+    
+}
+.buttonItem{
+    padding: 10px 24px;
+    font-size: 20px !important; 
+    padding:25px 0  !important;
+}
+
+.center{
+    
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .buttonWidth{
+        width: 50%;
+        cursor:pointer;
+        padding-bottom: 10px;
+    }
+
+    .center{
+    
+        text-align: center;
+        margin-left: auto;
+      margin-right: auto;
+    }
+  }

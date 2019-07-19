@@ -16,8 +16,10 @@ span.icon {
     background: url(../../images/open.png) no-repeat;
     float: right;
     width: 10px;
+    margin-top: 2%;
     padding-right: 10%;
-    height: 30px;
+    height: 20px;
+    transform: rotate(45deg)
 }
 
 .icon {
