@@ -12,7 +12,7 @@ const About = () => (
   <Layout>
     
     <Box>
-      <Hero />
+      {/* <Hero /> */}
      
      
     </Box>
